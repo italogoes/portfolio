@@ -105,4 +105,19 @@ main p{
     width: 550px;
     font-weight: 300;
     line-height: 24px;
+    margin-bottom: 20px;
+}
+
+main a{
+    width: 180px;
+    border-radius: 8px;
+    padding: 8px 0;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #0e0e0e;
+    font-size: 14px;
+    font-weight: 400;
 }
