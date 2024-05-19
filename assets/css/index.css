@@ -96,7 +96,7 @@ header nav ul li a:hover{
 }
 
 main{
-    height: 75vh;
+    height: 90vh;
     width: 100%;
     background-color: rgb(9, 9, 9);
     color: #fff;
@@ -137,6 +137,32 @@ main .button-main{
 
 section#numbers{
     background-color: rgb(9, 9, 9);
+}
+
+section#numbers .grid-numbers{
+    display: flex;
+    justify-content: space-between;
+}
+
+section#numbers .grid-numbers .card-numbers{
+    width: 190px;
+    text-align: left;
+}
+
+section#numbers .grid-numbers .card-numbers h3{
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    gap: 3px;
+}
+
+section#numbers .grid-numbers .card-numbers p{
+    font-size: 1.1rem;
+    color: #aaaaaa;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 21px;
 }
 
 section#projects{
