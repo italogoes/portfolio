@@ -106,3 +106,8 @@ main p{
     font-weight: 300;
     line-height: 24px;
 }
+
+main a{
+    background-color: #fff;
+    color: #0e0e0e;
+}
