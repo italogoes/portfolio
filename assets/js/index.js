@@ -44,3 +44,19 @@ window.addEventListener("DOMContentLoaded", () => {
         }
     }, 10);
 })
+
+function hoverOnProject(){
+    const project = document.querySelectorAll('.card-projects')
+    
+    project.forEach(element => {
+        element.addEventListener("mouseover", () => {
+            const cover = element.getElementsByClassName('cover-projects')
+            cover[0].classList.add('show-project')
+        })
+        element.addEventListener( "mouseout", () => {
+            const cover = element.getElementsByClassName('cover-projects')
+            cover[0].classList.remove('show-project')
+        })
+    })
+}
+hoverOnProject()
