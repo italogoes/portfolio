@@ -252,3 +252,28 @@ section#projects .grid-projects .card-projects .cover-projects a{
     font-weight: 400;
     margin-top: 20px;
 }
+
+section#projects .footer-projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 0 0 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #222222;
+}
+
+section#projects .footer-projects p{
+    color: #e6e6e6;
+    font-weight: 200;
+    width: 400px;
+    font-size: 1.1rem;
+    line-height: 23px;
+}
+
+section#projects .footer-projects a{
+    width: 190px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
