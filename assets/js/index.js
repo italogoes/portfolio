@@ -16,7 +16,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     let countTwo = 0
     let intervalTwo = setInterval(() => {
-        if (countTwo < 10) {
+        if (countTwo < 3) {
             countTwo++
             elementTwo.innerHTML = countTwo
         } else {
