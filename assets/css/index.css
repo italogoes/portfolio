@@ -281,57 +281,17 @@ section#projects .footer-projects a{
     font-size: 1rem;
 }
 
-section#steps-project{
+section#stacks{
+    width: 100%;
     padding-top: 0;
     background-color: rgb(9, 9, 9);
 }
 
-section#steps-project h2{
+section#stacks h2{
     font-size: 2.5rem;
     color: #fff;
     font-weight: 500;
-    width: 600px;
-}
-
-section#steps-project .grid-steps{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 80px;
-}
-
-section#steps-project .grid-steps .colum-steps{
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-}
-
-section#steps-project .grid-steps .colum-steps .colum-steps-grid p:nth-of-type(1){
-    color: #fff;
-    font-size: 1.8rem;
-    font-weight: 200;
-    border: 1px solid #fff;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-}
-
-section#steps-project .grid-steps .colum-steps .colum-steps-grid p:nth-of-type(2){
-    color: #fff;
-    font-weight: 500;
-    font-size: 1.3rem;
-    margin: 20px 0 5px 0;
-}
-
-section#steps-project .grid-steps .colum-steps .colum-steps-grid p:nth-of-type(3){
-    color: #767676;
-    width: 306px;
-    line-height: 26px;
-    letter-spacing: .3px;
-    font-size: 1.1rem;
-    font-weight: 400;
+    text-align: center;
 }
 
 footer {
@@ -425,18 +385,22 @@ footer .footer-grid .footer-colum:nth-of-type(3) p:hover{
 }
 
 .copy{
+    width: 100%;
     background-color: rgb(9, 9, 9);
 }
 
 .copy .box{
+    width: 100%;
     border-top: 1px solid #3a3a3a;
     color: #aaaaaa;
     font-weight: 300;
     font-size: 14px;
     padding: 15px 0;
+    text-align: center;
 }
 
 .copy .box p{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
